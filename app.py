@@ -11,7 +11,7 @@ BRAS_CARBURANT = 1.12
 DENSITE_CARBURANT = 0.72  # kg/L
 
 # Limites Cat. N (exemple simplifié)
-limite_bras = [0.205, 0.205, 0.43, 0.56]
+limite_bras = [0.205, 0.205, 0.43, 0.56, 0.56]
 limite_masse = [600, 750, 900, 900, 650]
 
 st.title("Calculateur de centrage DR400")
@@ -56,4 +56,5 @@ if st.button("Calculer le centrage"):
     ax.grid(True)
     ax.legend()
     st.pyplot(fig)
+
 
